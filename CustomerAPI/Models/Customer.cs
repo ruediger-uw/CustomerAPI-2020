@@ -29,9 +29,9 @@ namespace CustomerAPI.Models
         {
             int result = 0;
 
-            for(int iteration=0;iteration<y;iteration++)
+            for(int iteration=0;iteration<x;iteration++)
             {
-                result = result + x;
+                result = result + y;
             }
 
             return result;
